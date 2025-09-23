@@ -104,8 +104,9 @@ API_URL = "http://127.0.0.1:9999/chat"
 if st.button("🚀 Send Query", key="ask_agent", type="primary"):
     if user_query.strip():
         # show user's message as bubble
+        modified_user_query = user_query.replace("\n", "<br>")
         st.markdown(
-            f'<div class="user-bubble"><b>👤 You:</b><br>{user_query.replace("\n", "<br>")}</div>',
+            f'<div class="user-bubble"><b>👤 You:</b><br>{modified_user_query}</div>',
             unsafe_allow_html=True
         )
         payload = {
@@ -124,8 +125,9 @@ if st.button("🚀 Send Query", key="ask_agent", type="primary"):
 
                 # Agent reply in colored bubble
                 st.markdown("<br>", unsafe_allow_html=True)
+                modified_agent_response = agent_response.replace("\n", "<br>")
                 st.markdown(
-                    f'<div class="ai-bubble"><b>🤖 AI Agent:</b><br>{agent_response.replace("\n", "<br>")}</div>',
+                    f'<div class="ai-bubble"><b>🤖 AI Agent:</b><br>{modified_agent_response}</div>',
                     unsafe_allow_html=True
                 )
             else:
