@@ -1,6 +1,6 @@
 # 🤖 Multi-AI-Agent-Project — Next-Gen Multi-Agent Assistant
 
-Welcome to the **Multi-AI-Agent-Project**! This project is a powerful and extensible framework to create and deploy collaborative, research-oriented AI agents for answering queries, automating research, and providing grounded insights. Featuring a modern Streamlit interface, web-powered answer capabilities, modular core, and containerized deployment — jumpstart your next AI agent project, research assistant, or personalized chat system!
+Welcome to the **MultiMinds**! This project is a powerful and extensible framework to create and deploy collaborative, research-oriented AI agents for answering queries, automating research, and providing grounded insights. Featuring a modern Streamlit interface, web-powered answer capabilities, modular core, and containerized deployment — jumpstart your next AI agent project, research assistant, or personalized chat system!
 
 ---
 
